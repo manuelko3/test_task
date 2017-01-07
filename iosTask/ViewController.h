@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UICollectionView *addressCollectionView;
+@property (strong, nonatomic) NSMutableArray* contacts;
+
+- (IBAction)FBlogin:(UIButton *)sender;
 
 @end
 

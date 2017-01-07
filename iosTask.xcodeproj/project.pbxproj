@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963AD5811E2159780012C02B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 963AD5801E2159780012C02B /* Default-568h@2x.png */; };
 		963D3D401E212BA8009A5A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D3F1E212BA8009A5A15 /* main.m */; };
 		963D3D431E212BA8009A5A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D421E212BA8009A5A15 /* AppDelegate.m */; };
 		963D3D461E212BA8009A5A15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D451E212BA8009A5A15 /* ViewController.m */; };
 		963D3D491E212BA8009A5A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963D3D471E212BA8009A5A15 /* Main.storyboard */; };
 		963D3D4B1E212BA8009A5A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963D3D4A1E212BA8009A5A15 /* Assets.xcassets */; };
 		963D3D4E1E212BA8009A5A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963D3D4C1E212BA8009A5A15 /* LaunchScreen.storyboard */; };
+		963D3D571E212BF8009A5A15 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D561E212BF8009A5A15 /* Contact.m */; };
+		963D3D5A1E212C46009A5A15 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D591E212C46009A5A15 /* ContactManager.m */; };
+		963D3D5D1E212CD6009A5A15 /* ContactCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D5C1E212CD6009A5A15 /* ContactCollectionViewCell.m */; };
+		963D3D601E212EC2009A5A15 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D3D5F1E212EC2009A5A15 /* Contacts.framework */; };
+		963D3D621E212ED4009A5A15 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D3D611E212ED4009A5A15 /* Bolts.framework */; };
+		963D3D641E212EF1009A5A15 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D3D631E212EF1009A5A15 /* FBSDKCoreKit.framework */; };
+		963D3D661E212F03009A5A15 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D3D651E212F03009A5A15 /* FBSDKLoginKit.framework */; };
+		963D3D681E212F14009A5A15 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D3D671E212F14009A5A15 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		963AD5801E2159780012C02B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		963D3D3B1E212BA8009A5A15 /* iosTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963D3D3F1E212BA8009A5A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		963D3D411E212BA8009A5A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,17 @@
 		963D3D4A1E212BA8009A5A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		963D3D4D1E212BA8009A5A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		963D3D4F1E212BA8009A5A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963D3D551E212BF8009A5A15 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		963D3D561E212BF8009A5A15 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		963D3D581E212C46009A5A15 /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactManager.h; sourceTree = "<group>"; };
+		963D3D591E212C46009A5A15 /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManager.m; sourceTree = "<group>"; };
+		963D3D5B1E212CD6009A5A15 /* ContactCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCollectionViewCell.h; sourceTree = "<group>"; };
+		963D3D5C1E212CD6009A5A15 /* ContactCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCollectionViewCell.m; sourceTree = "<group>"; };
+		963D3D5F1E212EC2009A5A15 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		963D3D611E212ED4009A5A15 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		963D3D631E212EF1009A5A15 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		963D3D651E212F03009A5A15 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		963D3D671E212F14009A5A15 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963D3D681E212F14009A5A15 /* FBSDKShareKit.framework in Frameworks */,
+				963D3D661E212F03009A5A15 /* FBSDKLoginKit.framework in Frameworks */,
+				963D3D641E212EF1009A5A15 /* FBSDKCoreKit.framework in Frameworks */,
+				963D3D621E212ED4009A5A15 /* Bolts.framework in Frameworks */,
+				963D3D601E212EC2009A5A15 /* Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +68,10 @@
 		963D3D321E212BA8009A5A15 = {
 			isa = PBXGroup;
 			children = (
+				963AD5801E2159780012C02B /* Default-568h@2x.png */,
 				963D3D3D1E212BA8009A5A15 /* iosTask */,
 				963D3D3C1E212BA8009A5A15 /* Products */,
+				963D3D5E1E212EC2009A5A15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +88,14 @@
 			children = (
 				963D3D411E212BA8009A5A15 /* AppDelegate.h */,
 				963D3D421E212BA8009A5A15 /* AppDelegate.m */,
+				963D3D551E212BF8009A5A15 /* Contact.h */,
+				963D3D581E212C46009A5A15 /* ContactManager.h */,
+				963D3D591E212C46009A5A15 /* ContactManager.m */,
+				963D3D561E212BF8009A5A15 /* Contact.m */,
 				963D3D441E212BA8009A5A15 /* ViewController.h */,
 				963D3D451E212BA8009A5A15 /* ViewController.m */,
+				963D3D5B1E212CD6009A5A15 /* ContactCollectionViewCell.h */,
+				963D3D5C1E212CD6009A5A15 /* ContactCollectionViewCell.m */,
 				963D3D471E212BA8009A5A15 /* Main.storyboard */,
 				963D3D4A1E212BA8009A5A15 /* Assets.xcassets */,
 				963D3D4C1E212BA8009A5A15 /* LaunchScreen.storyboard */,
@@ -77,6 +111,18 @@
 				963D3D3F1E212BA8009A5A15 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		963D3D5E1E212EC2009A5A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				963D3D671E212F14009A5A15 /* FBSDKShareKit.framework */,
+				963D3D651E212F03009A5A15 /* FBSDKLoginKit.framework */,
+				963D3D631E212EF1009A5A15 /* FBSDKCoreKit.framework */,
+				963D3D611E212ED4009A5A15 /* Bolts.framework */,
+				963D3D5F1E212EC2009A5A15 /* Contacts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +156,7 @@
 				TargetAttributes = {
 					963D3D3A1E212BA8009A5A15 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C46Y2C62UL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963D3D4E1E212BA8009A5A15 /* LaunchScreen.storyboard in Resources */,
+				963AD5811E2159780012C02B /* Default-568h@2x.png in Resources */,
 				963D3D4B1E212BA8009A5A15 /* Assets.xcassets in Resources */,
 				963D3D491E212BA8009A5A15 /* Main.storyboard in Resources */,
 			);
@@ -150,7 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963D3D5A1E212C46009A5A15 /* ContactManager.m in Sources */,
+				963D3D571E212BF8009A5A15 /* Contact.m in Sources */,
 				963D3D461E212BA8009A5A15 /* ViewController.m in Sources */,
+				963D3D5D1E212CD6009A5A15 /* ContactCollectionViewCell.m in Sources */,
 				963D3D431E212BA8009A5A15 /* AppDelegate.m in Sources */,
 				963D3D401E212BA8009A5A15 /* main.m in Sources */,
 			);
@@ -270,9 +321,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C46Y2C62UL;
+				FRAMEWORK_SEARCH_PATHS = /Users/Manuelko/Documents/FacebookSDK;
 				INFOPLIST_FILE = iosTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Manuelko.iosTask;
+				PRODUCT_BUNDLE_IDENTIFIER = manuelko.AdressBookManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -281,9 +334,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C46Y2C62UL;
+				FRAMEWORK_SEARCH_PATHS = /Users/Manuelko/Documents/FacebookSDK;
 				INFOPLIST_FILE = iosTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Manuelko.iosTask;
+				PRODUCT_BUNDLE_IDENTIFIER = manuelko.AdressBookManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -307,6 +362,7 @@
 				963D3D541E212BA8009A5A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
