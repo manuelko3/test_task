@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		963AD5811E2159780012C02B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 963AD5801E2159780012C02B /* Default-568h@2x.png */; };
 		963D3D401E212BA8009A5A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D3F1E212BA8009A5A15 /* main.m */; };
 		963D3D431E212BA8009A5A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D421E212BA8009A5A15 /* AppDelegate.m */; };
 		963D3D461E212BA8009A5A15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D451E212BA8009A5A15 /* ViewController.m */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		963AD5801E2159780012C02B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		963D3D3B1E212BA8009A5A15 /* iosTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963D3D3F1E212BA8009A5A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		963D3D411E212BA8009A5A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,10 +63,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		963AD5821E217C420012C02B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				963D3D411E212BA8009A5A15 /* AppDelegate.h */,
+				963D3D421E212BA8009A5A15 /* AppDelegate.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		963AD5831E217C590012C02B /* ContactsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				963D3D551E212BF8009A5A15 /* Contact.h */,
+				963D3D561E212BF8009A5A15 /* Contact.m */,
+				963D3D581E212C46009A5A15 /* ContactManager.h */,
+				963D3D591E212C46009A5A15 /* ContactManager.m */,
+			);
+			name = ContactsHelper;
+			sourceTree = "<group>";
+		};
+		963AD5841E217C760012C02B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				963D3D441E212BA8009A5A15 /* ViewController.h */,
+				963D3D451E212BA8009A5A15 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		963AD5851E217C910012C02B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				963D3D471E212BA8009A5A15 /* Main.storyboard */,
+				963D3D5B1E212CD6009A5A15 /* ContactCollectionViewCell.h */,
+				963D3D5C1E212CD6009A5A15 /* ContactCollectionViewCell.m */,
+				963D3D4A1E212BA8009A5A15 /* Assets.xcassets */,
+				963D3D4C1E212BA8009A5A15 /* LaunchScreen.storyboard */,
+				963D3D4F1E212BA8009A5A15 /* Info.plist */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		963D3D321E212BA8009A5A15 = {
 			isa = PBXGroup;
 			children = (
-				963AD5801E2159780012C02B /* Default-568h@2x.png */,
 				963D3D3D1E212BA8009A5A15 /* iosTask */,
 				963D3D3C1E212BA8009A5A15 /* Products */,
 				963D3D5E1E212EC2009A5A15 /* Frameworks */,
@@ -86,20 +125,10 @@
 		963D3D3D1E212BA8009A5A15 /* iosTask */ = {
 			isa = PBXGroup;
 			children = (
-				963D3D411E212BA8009A5A15 /* AppDelegate.h */,
-				963D3D421E212BA8009A5A15 /* AppDelegate.m */,
-				963D3D551E212BF8009A5A15 /* Contact.h */,
-				963D3D581E212C46009A5A15 /* ContactManager.h */,
-				963D3D591E212C46009A5A15 /* ContactManager.m */,
-				963D3D561E212BF8009A5A15 /* Contact.m */,
-				963D3D441E212BA8009A5A15 /* ViewController.h */,
-				963D3D451E212BA8009A5A15 /* ViewController.m */,
-				963D3D5B1E212CD6009A5A15 /* ContactCollectionViewCell.h */,
-				963D3D5C1E212CD6009A5A15 /* ContactCollectionViewCell.m */,
-				963D3D471E212BA8009A5A15 /* Main.storyboard */,
-				963D3D4A1E212BA8009A5A15 /* Assets.xcassets */,
-				963D3D4C1E212BA8009A5A15 /* LaunchScreen.storyboard */,
-				963D3D4F1E212BA8009A5A15 /* Info.plist */,
+				963AD5821E217C420012C02B /* API */,
+				963AD5831E217C590012C02B /* ContactsHelper */,
+				963AD5841E217C760012C02B /* Controllers */,
+				963AD5851E217C910012C02B /* View */,
 				963D3D3E1E212BA8009A5A15 /* Supporting Files */,
 			);
 			path = iosTask;
@@ -185,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				963D3D4E1E212BA8009A5A15 /* LaunchScreen.storyboard in Resources */,
-				963AD5811E2159780012C02B /* Default-568h@2x.png in Resources */,
 				963D3D4B1E212BA8009A5A15 /* Assets.xcassets in Resources */,
 				963D3D491E212BA8009A5A15 /* Main.storyboard in Resources */,
 			);
