@@ -26,7 +26,7 @@ static NSString* kCellIdentifier = @"Cell";
     ContactManager *cm = [ContactManager sharedManager];
     [cm requestAccess:^(NSMutableArray *contacts) {
         self.contacts = contacts;
-        dispatch_async(dispatch_get_main_queue(), ^{
+        dispatch_sync(dispatch_get_main_queue(), ^{
             [self.addressCollectionView reloadData];
         });
     }];
